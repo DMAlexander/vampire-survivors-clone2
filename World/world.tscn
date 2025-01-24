@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cr2vrnunngev0"]
+
+[node name="World" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+
+[node name="Loot" type="Node2D" parent="."]
+
+[node name="snd_Music" type="AudioStreamPlayer" parent="."]
+volume_db = -15.0
+autoplay = true

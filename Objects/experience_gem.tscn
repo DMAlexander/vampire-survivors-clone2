@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://68csdsrh3tv5"]
+
+[node name="ExperienceGem" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]

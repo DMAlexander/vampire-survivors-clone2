@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwpq0j1aj1rdu"]
+
+[ext_resource type="Script" path="res://Player/GUI/item_container.gd" id="1_e1xh1"]
+
+[node name="ItemContainer" type="TextureRect"]
+script = ExtResource("1_e1xh1")
+
+[node name="ItemTexture" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0

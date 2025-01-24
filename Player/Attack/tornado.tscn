@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://ruklgf3d8a0q"]
+
+[ext_resource type="Script" path="res://Player/Attack/tornado.gd" id="1_5wx3i"]
+
+[node name="Tornado" type="Area2D"]
+script = ExtResource("1_5wx3i")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]

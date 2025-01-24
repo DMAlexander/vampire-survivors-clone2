@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://docsgy3oy4p7b"]
+
+[ext_resource type="Script" path="res://Player/Attack/ice_spear.gd" id="1_6gsrt"]
+
+[node name="IceSpear" type="Area2D" groups=["attack"]]
+script = ExtResource("1_6gsrt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
